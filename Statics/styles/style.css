@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.flex-container img{
+    height: 286px;
+    width: 286px;
+
+}
+
