@@ -2,19 +2,39 @@
     margin: 0 auto;
     width: 75%;
     text-align: center;
+
+}
+
+.card-form-container .card{
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+.input-group{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: grab;
 }
 
 .flex-container, .card-flex-container{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
     justify-content: space-around;
+    padding: 10px;
     margin: 10px;
 }
 
-.flex-container img{
-    height: 286px;
+.flex-container .card-added-item img{
+    height: 200px;
     width: 286px;
 
+}
+
+.flex-container .card-added-item{
+    margin: 10px;
+    width: 18rem;
+    height: 25rem;
 }
 
